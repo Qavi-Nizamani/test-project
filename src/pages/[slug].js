@@ -14,4 +14,6 @@ export async function getStaticProps({ params }) {
     props: {},
   };
 }
+
+export const runtime = "experimental-edge";
 export default Page;
